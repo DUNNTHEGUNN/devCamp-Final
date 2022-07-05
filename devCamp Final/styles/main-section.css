@@ -1,0 +1,64 @@
+.main-section-wrapper {
+    width: 100%;
+    background-color: #3f434d;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left Column */
+
+.main-section-wrapper > .left-column {
+    padding-left: 50px;
+}
+
+.main-section-wrapper > .left-column > .heading-wrapper {
+    font-size: 3.5em;
+}
+
+.main-section-wrapper > .left-column > .description {
+    font-size: 2.75em;
+    font-weight: 300;
+    color: #a6adb3;
+}
+
+.main-section-wrapper > .left-column > .buttons-wrapper {
+    display: flex;
+}
+
+.main-section-wrapper > .left-column > .buttons-wrapper > .button {
+    font-size: 3em;
+}
+
+.main-section-wrapper > .left-column > .buttons-wrapper > #sign-up-4-free {
+    background-color: #53c67f;
+    color: #001800;
+    font-weight: 700;
+}
+
+.main-section-wrapper > .left-column > .buttons-wrapper > #learn-more {
+    background-color: #111111; 
+    font-weight: 700;
+}
+
+.main-section-wrapper > .left-column > .buttons-wrapper > .spacer {
+    width: 15px;
+}
+
+/* Right Column */
+
+.main-section-wrapper > .right-column {
+    padding-top: 45px;
+}
+
+.main-section-wrapper > .right-column > .label {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.main-section-wrapper > .right-column > .img-wrapper img{
+    width: 800px;
+    border: -20px;
+    border-radius: 10px;
+}

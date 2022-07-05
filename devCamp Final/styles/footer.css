@@ -1,0 +1,19 @@
+.footer > .uses-wrapper{
+    background-color: #35383f;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > .uses-wrapper > .use {
+    width: 25%;
+    text-align: center;
+    padding: 30px 0px;
+    border: 1px solid #67686d;
+}
+
+.footer > .bottom-space {
+    background-color: #191a1e;
+    height: 90px;
+    width: 100%;
+}
